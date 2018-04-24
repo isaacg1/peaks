@@ -15,6 +15,6 @@ intensity: The maximum color intensity of a blob, on a RGB scale out of 256.
 name: The filename to save to. Should be a PNG or JPEG, and the filetype will be chosen accordingly.
 
 ## Example
-peaks 1000 8000 25 5 img1.png
+peaks 1000 8000 25 5 img4.png
 
-![Gaussian peak image](img1.png)
+![Gaussian peak image](img4.png)
