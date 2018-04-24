@@ -67,9 +67,8 @@ fn main() {
     let result = draw_peaks(size, num_peaks, radius_center, intensity);
 
     let mut image = ImageBuffer::new(size as u32, size as u32);
-    for i in 0..size {
-        for j in 0..size {
-            let color = result[i][j];
+    for (i, row) in result.iter().enumerate() {
+        for (j, color) in row.iter().enumerate() {
             let pixel = Rgb([color.0 as u8, color.1 as u8, color.2 as u8]);
             image.put_pixel(i as u32, j as u32, pixel);
         }

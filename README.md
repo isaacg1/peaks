@@ -18,3 +18,7 @@ name: The filename to save to. Should be a PNG or JPEG, and the filetype will be
 peaks 1000 8000 25 5 img4.png
 
 ![Gaussian peak image](img4.png)
+
+peaks 1000 16000 12 10 img9.png
+
+![Gaussian peak image](img9.png)
